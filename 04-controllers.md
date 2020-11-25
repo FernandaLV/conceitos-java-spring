@@ -52,12 +52,12 @@ Anotação para lidar com exeções em classes e/ou métodos manipuladores (*han
 
 ## @ControllerAdvice
 
-Tipo específico de componente para classes com métodos **[@ExptionHandler](#exptionhandler)**, **[@InitBinder](#initbinder)** ou **@ModelAttibute** a serem comartilhados entre vários controladores (*controllers*)
+Tipo específico de componente para classes com métodos **[@ExceptionHandler](#exceptionhandler)**, **[@InitBinder](#initbinder)** ou **@ModelAttibute** a serem comartilhados entre vários controladores (*controllers*)
 
 
 ## @RestControllerAdvice
 
-Os tipos com esta anotação são tratados como advice do controlador, onde métodos **[@ExptionHandler](#exptionhandler)** assumem a semântica **[@ResponseBody](#responsebody)**.
+Os tipos com esta anotação são tratados como advice do controlador, onde métodos **[@ExceptionHandler](#exceptionhandler)** assumem a semântica **[@ResponseBody](#responsebody)**.
 
 Esta anotação é um 'atalho' do uso das anotações:
 
@@ -76,4 +76,4 @@ Abaixo as fontes dos dados deste documento e documentações com mais detalhes e
 - [https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/web/bind/WebDataBinder.html](https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/web/bind/WebDataBinder.html);
 - [https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/validation/Validator.html](https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/validation/Validator.html);
 - [https://www.baeldung.com/exception-handling-for-rest-with-spring](https://www.baeldung.com/exception-handling-for-rest-with-spring);
-- [https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/web/bind/annotation/ControllerAdvice.html](https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/web/bind/annotation/ControllerAdvice.html);
+- [https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/web/bind/annotation/ControllerAdvice.html](https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/web/bind/annotation/ControllerAdvice.html);.
