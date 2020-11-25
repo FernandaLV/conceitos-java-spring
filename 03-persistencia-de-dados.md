@@ -54,8 +54,9 @@ Todas as superinterfaces:
 - QueryByExampleExecutor<T>;
 - Repository<T,ID>.
   
-- **T**: Tipo do domínio do repositorio (a classe da entidade relacionada ao repositório).
-- **ID**: Tipo do identificador, por exemplo, Long ou String.
+**T**: Tipo do domínio do repositorio (a classe da entidade relacionada ao repositório).
+
+**ID**: Tipo do identificador, por exemplo, Long ou String.
 
 
 ## Quer saber mais?
