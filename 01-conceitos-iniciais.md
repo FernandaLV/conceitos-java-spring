@@ -1,3 +1,5 @@
+*Neste documento contém conceitos iniciais para o entendimento do que é Spring Boot.*
+
 ## O que é Spring?
 
 O Spring é um framework Java criado para facilitar o desenvolvimento de aplicações através dos conceitos de Inversão de Controle e Injeção de Dependências.
