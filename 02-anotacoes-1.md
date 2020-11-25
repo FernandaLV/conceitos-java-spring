@@ -1,3 +1,5 @@
+*Neste documento contém algumas anotações comuns utilizada pelas aplicações Spring e Spring MVC.*
+
 ## @SpringBootApplication
 
 Esta anotação marca a classe principal de uma aplicação Spring Boot.
