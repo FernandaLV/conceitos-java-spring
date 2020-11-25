@@ -45,7 +45,7 @@ As anotações não fazem parte do aplicativo que desenvolvemos; não tem um efe
 
 ## Quer saber mais?
 
-Abaixo as fontes dos dados deste documento. Neles contém mais detalhes e alguns exemplos.
+Abaixo as fontes dos dados deste documento, neles contém mais detalhes e alguns exemplos:
 
 - [https://www.devmedia.com.br/exemplo/como-comecar-com-spring/73](https://www.devmedia.com.br/exemplo/como-comecar-com-spring/73);
 - [https://www.baeldung.com/inversion-control-and-dependency-injection-in-spring](https://www.baeldung.com/inversion-control-and-dependency-injection-in-spring);
