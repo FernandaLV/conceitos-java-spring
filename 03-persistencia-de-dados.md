@@ -54,8 +54,8 @@ Todas as superinterfaces:
 - QueryByExampleExecutor<T>;
 - Repository<T,ID>.
   
-**T**: Tipo do domínio do repositorio (a classe da entidade relacionada ao repositório).
-**ID**: Tipo do identificador, por exemplo, Long ou String.
+- **T**: Tipo do domínio do repositorio (a classe da entidade relacionada ao repositório).
+- **ID**: Tipo do identificador, por exemplo, Long ou String.
 
 
 ## Quer saber mais?
@@ -66,7 +66,7 @@ Abaixo as fontes dos dados deste documento e documentações com mais detalhes e
 - [https://pt.stackoverflow.com/questions/31362/o-que-%C3%A9-um-dto](https://pt.stackoverflow.com/questions/31362/o-que-%C3%A9-um-dto);
 - [https://docs.oracle.com/javaee/7/api/javax/persistence/EntityManager.html](https://docs.oracle.com/javaee/7/api/javax/persistence/EntityManager.html);
 - [https://www.baeldung.com/hibernate-entitymanager](https://www.baeldung.com/hibernate-entitymanager);
-- [https://www.marcobehler.com/guides/spring-transaction-management-transactional-in-depth](https://www.marcobehler.com/guides/spring-transaction-management-transactional-in-depth)
+- [https://www.marcobehler.com/guides/spring-transaction-management-transactional-in-depth](https://www.marcobehler.com/guides/spring-transaction-management-transactional-in-depth);
 - [https://www.devmedia.com.br/entendendo-o-java-persistencecontext-extended-e-transient/30493](https://www.devmedia.com.br/entendendo-o-java-persistencecontext-extended-e-transient/30493);
 - [https://docs.spring.io/spring-data/jpa/docs/current/api/org/springframework/data/jpa/repository/JpaRepository.html](https://docs.spring.io/spring-data/jpa/docs/current/api/org/springframework/data/jpa/repository/JpaRepository.html);
-- [https://www.baeldung.com/spring-data-repositories](https://www.baeldung.com/spring-data-repositories)
+- [https://www.baeldung.com/spring-data-repositories](https://www.baeldung.com/spring-data-repositories).
