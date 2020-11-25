@@ -1,3 +1,3 @@
 # Conceitos Java Spring
 
-Este repositório contem conceito básicos para o entendimento do Java Spring.
+Este repositório contem alguns conceitos para o entendimento do Java Spring.
