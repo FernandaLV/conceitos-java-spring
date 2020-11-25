@@ -39,7 +39,7 @@ Indica um tipo específico de componente para classes com lógica de negócios.
 
 ## Quer saber mais?
 
-Abaixo as fontes dos dados deste documento, neles contém mais detalhes e alguns exemplos:
+Abaixo as fontes dos dados deste documento e documentações com mais detalhes e exemplos:
 
 - [https://www.baeldung.com/spring-boot-annotations](https://www.baeldung.com/spring-boot-annotations);
 - [https://javarevisited.blogspot.com/2017/11/difference-between-component-service.html](https://javarevisited.blogspot.com/2017/11/difference-between-component-service.html);
