@@ -1,3 +1,5 @@
+*Neste documento contém alguns conceitos, classes e anotações utilizadas para validações.*
+
 ## Anotação Bean Validation
 
 Cria uma anotação para validações, como por exemplo o **@NotBlanck**.
@@ -108,6 +110,6 @@ Abaixo as fontes dos dados deste documento e documentações com mais detalhes e
 
 - [https://www.baeldung.com/javax-validation](https://www.baeldung.com/javax-validation);
 - [https://emmanuelneri.com.br/2017/05/30/criando-validacoes-de-bean-validation-customizadas/](https://emmanuelneri.com.br/2017/05/30/criando-validacoes-de-bean-validation-customizadas/);
-- [https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/util/Assert.html](https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/util/Assert.html)
-- [https://www.baeldung.com/spring-assert](https://www.baeldung.com/spring-assert)
-- [https://www.baeldung.com/java-bean-validation-not-null-empty-blank](https://www.baeldung.com/java-bean-validation-not-null-empty-blank);
+- [https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/util/Assert.html](https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/util/Assert.html);
+- [https://www.baeldung.com/spring-assert](https://www.baeldung.com/spring-assert);
+- [https://www.baeldung.com/java-bean-validation-not-null-empty-blank](https://www.baeldung.com/java-bean-validation-not-null-empty-blank).
