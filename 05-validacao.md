@@ -8,7 +8,7 @@ Como criar:
    1. É necessário os seguintes atributos:
       1. **message** com a mensagem padrão do erro;
       1. **groups** que permite especificar grupos de validação. Por *default* é um *array* vazio do tipo *Class<?>*;
-      1. **playload** que pode ser utilizado por clientes da **API Jakarta Bean Validation** para personalizar **playload** de uma restrição. Ela não é usada pela própria API;
+      1. **payload** que pode ser utilizado por clientes da **API Jakarta Bean Validation** para personalizar **payload** de uma restrição. Ela não é usada pela própria API;
    1. É utilizado as seguintes anotações:
       1. **@Target** é informado o alvo da anotação, por exemplo, **Field** (campo);
       1. **@Retention(RUNTIME)** especifica que a nova anotação estará disponível em tempo de execução;
@@ -101,3 +101,13 @@ Vazio: Quando tamanho/comprimento do objeto = 0, i.e.: String "", Array [], Map 
 
 Aparado: Remove espaços da String, i.e.: de " teste " fica "teste".
 
+
+## Quer saber mais?
+
+Abaixo as fontes dos dados deste documento e documentações com mais detalhes e exemplos:
+
+- [https://www.baeldung.com/javax-validation](https://www.baeldung.com/javax-validation);
+- [https://emmanuelneri.com.br/2017/05/30/criando-validacoes-de-bean-validation-customizadas/](https://emmanuelneri.com.br/2017/05/30/criando-validacoes-de-bean-validation-customizadas/);
+- [https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/util/Assert.html](https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/util/Assert.html)
+- [https://www.baeldung.com/spring-assert](https://www.baeldung.com/spring-assert)
+- [https://www.baeldung.com/java-bean-validation-not-null-empty-blank](https://www.baeldung.com/java-bean-validation-not-null-empty-blank);
