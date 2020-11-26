@@ -4,7 +4,7 @@
 
 Esta anotação é utilizada após **@Id** (mostra que o atributo é um identificador único) para indicar que será responsabilidade do provedor de persistência gerenciar o identificador único (chave). Sem esta anotação, o gerenciamento dica na responsabilidade da aplicação.
 
-É possível definir a estratégia de geração da chave pelo atributo *strategy*, as opçes são:
+É possível definir a estratégia de geração da chave pelo atributo *strategy*, as opções são:
 
 - **GenerationType.AUTO**: Padrão. O provedor de persistência escolhe a estratégia mais adequada conforme o Banco de Dados;
 - **GenerationType.IDENTITY**: Informa ao provedor de persistência que as chaves serão geradas pelo autoincremento do Banco de Dados. Alguns Banco de Dados podem no suportar essa opção;
@@ -14,7 +14,7 @@ Esta anotação é utilizada após **@Id** (mostra que o atributo é um identifi
 
 ## @Enumerated
 
- Indica que o campo é um *enum* e pode especificacar se deve persistir o valor inteiro do *enum* (*default*, não precisa passar argumento), ou a descrição utilizando **@Enumerated(EnumType.String)**
+ Indica que o campo é um *enum* e pode especificar se deve persistir o valor inteiro do *enum* (*default*, não precisa passar argumento), ou a descrição utilizando **@Enumerated(EnumType.String)**
 
 
 ## Quer saber mais?
