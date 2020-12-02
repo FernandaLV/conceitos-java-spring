@@ -49,7 +49,7 @@ O Kafka utiliza o conceito de tópico e partição. O tópico é como categoriza
 
 ## Partição
 
-Para manter a ordenação em um ecossistema de Kafka, os tópicos possuem partições e fatores de replicação. Um tópico pode possuir 1 ou mais partições. Ao receber uma nova mensagem o Kafka automaticamente direciona aquela mensagem para uma partição específica, dependendo de sua chave (*key*). Desta forma as mensagens de uma mesma chave estarão apenas em uma única partição, e garante a leitura ordenada de todas as mensagens de um tópico dentro da partição.
+Para manter a ordenação em um ecossistema de Kafka, os tópicos possuem partições e fatores de replicação. Um tópico pode possuir uma ou mais partições. Ao receber uma nova mensagem o Kafka automaticamente direciona aquela mensagem para uma partição específica, dependendo de sua chave (*key*). Desta forma as mensagens de uma mesma chave estarão apenas em uma única partição, e garante a leitura ordenada de todas as mensagens de um tópico dentro da partição.
 
 ![particoes](https://github.com/zup-academy/nosso-cartao-documentacao/blob/master/images/kafka-004.png)
 
@@ -104,8 +104,8 @@ E se tivermos quatro consumidores no mesmo grupo para processar três partiçõe
 
 ![cluster](https://github.com/zup-academy/nosso-cartao-documentacao/blob/master/images/kafka-001.png)
 
-O *broker* é o coração do ecossistema do Kafka. Um Kafka Broker é executado em uma única instância em sua máquina. Um conjunto de Brokers entre diversas máquinas formam um Kafka Cluster.
-Uma das principais características do Kafka é a escalabilidade e resiliência que ele oferece. É possível ter o Kafka localmente na sua própria máque e esta teria um Kafka Broker formando um Kafka Cluster, como também subir diversas instancias de Kafka Brokers e todas estarem no mesmo Kafka Cluster. Assim, podemos escalar a aplicação e replicar os dados entre os *brokers* (máquinas).
+O *broker* é o coração do ecossistema do Kafka. Um Kafka Broker é executado em uma única instância em sua máquina. Um conjunto de *brokers* entre diversas máquinas formam um Kafka Cluster.
+Uma das principais características do Kafka é a escalabilidade e resiliência que ele oferece. É possível ter o Kafka localmente na sua própria máquina e esta teria um Kafka Broker formando um Kafka Cluster, como também subir diversas instancias de Kafka Brokers e todas estarem no mesmo Kafka Cluster. Assim, podemos escalar a aplicação e replicar os dados entre os *brokers*.
 
 
  ## Quer saber mais?
@@ -116,4 +116,6 @@ Abaixo as fontes dos dados deste documento e documentações com mais detalhes e
 - [https://kafka.apache.org/documentation/#design_pull](https://kafka.apache.org/documentation/#design_pull);
 - [https://medium.com/@gabrielqueiroz/o-que-%C3%A9-esse-tal-de-apache-kafka-a8f447cac028](https://medium.com/@gabrielqueiroz/o-que-%C3%A9-esse-tal-de-apache-kafka-a8f447cac028);
 - [https://github.com/zup-academy/nosso-cartao-documentacao/blob/master/informacao_procedural/kafka.md](https://github.com/zup-academy/nosso-cartao-documentacao/blob/master/informacao_procedural/kafka.md)
+- [https://github.com/zup-academy/nosso-cartao-documentacao/blob/master/informacao_suporte/kafka-partition.md](https://github.com/zup-academy/nosso-cartao-documentacao/blob/master/informacao_suporte/kafka-partition.md)
+- [https://github.com/zup-academy/nosso-cartao-documentacao/blob/master/informacao_suporte/kafka-consumer.md](https://github.com/zup-academy/nosso-cartao-documentacao/blob/master/informacao_suporte/kafka-consumer.md)
  
