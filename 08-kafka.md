@@ -27,8 +27,8 @@ Estas funcionalidades são todas fornecidas de forma distribuída, altamente esc
 
 Há dois tipos de modelos de entrega:
 
-- **Push model**: os dados são enviados para os consumidores.
-- **Pull model**: os dados são coletados pelos consumidores.
+- ***Push model***: os dados são enviados para os consumidores.
+- ***Pull model***: os dados são coletados pelos consumidores.
 
 O Apache Kafka utiliza o pull model, trazendo algumas vantagens:
 
@@ -42,7 +42,7 @@ O Apache Kafka utiliza o pull model, trazendo algumas vantagens:
 Os dois padrões de mensagerias mais comuns são fila (*queue*) e tópico (*topic*):
 
 - **Fila**: As mensagens são incluidas e lidas em ordem sequencial por quem escreve a mensagem e quem lê a mensagem, respectivamente. É enviado uma mensagem e o receptor as recebe na ordem enviada.
-- **Topic**: Semelhante a uma fila, entretando, em vez de um receptor, no tópico temos o conceito de *broadcast*. Um produtor envia mensagens para um tópico e as partes interessadas na informação assinam este tópico e passam a receber as mensagens enviadas.
+- **Tópico**: Semelhante a uma fila, entretando, em vez de um receptor, no tópico temos o conceito de *broadcast*. Um produtor envia mensagens para um tópico e as partes interessadas na informação assinam este tópico e passam a receber as mensagens enviadas.
 
 O Kafka utiliza o conceito de tópico e partição. O tópico é como categoriza os grupos de mensagens, por exemplo, transações. Neste tópico sabemos que contem os dados de transações, e este tópico pode conter várias partições.
 
@@ -69,7 +69,35 @@ Para enviar um evento é preciso enviar as seguintes informações:
 
 ## Consumer
 
+Os consumidores (*consumers*) são os que processam os eventos/meensagens de um determinado tópico, em uma ou mais partição, e é de sua responsábilidade gravar qual ponto parou de ler e em qual partição.
 
+Caso haja necessidade, é possível processar os eventos novamente, basta o consumidor zerar seu histórico de processamento (*offset*), pois o Apache Kafka armazena os eventos de cada partição de acordo com o configurado (dia, mês, ano, etc).
+
+Para que isso seja possível o consumidor precisa configurar qual modelo ele quer fazer de coletar de eventos:
+
+- ***latest***: Processa a partir do último processado.
+- ***earliest***: Zera o offset e processa desde o início.
+- ***none***: Não processa nenhum evento e lança uma exceção em sua aplicação.
+
+O Apache Kafka tem o conceito de grupo (*consumer group*), que tem a responsabilidade de balancear a carga de trabalho com a quantidade de partições.
+
+Todo consumidor no Apache Kafka deve pertencer a um grupo, e o controle de histórico de processamento é por grupo e partição. O modelo de escalabilidade do consumidor está atrelado a quantidade de consumidor x partições.
+
+No caso em que há um consumidor no grupo, para processar o evento de três as partições, este consumidor irá receber de todas as repartições:
+
+![um_consumidor](https://github.com/zup-academy/nosso-cartao-documentacao/blob/master/images/kafka-005.png)
+
+Se houver dois consumidores no mesmo grupo para processar três partições de um tópico, um consumidor irá processar de uma partição e o outro as outras duas partições:
+
+![dois_consumidores](https://github.com/zup-academy/nosso-cartao-documentacao/blob/master/images/kafka-006.png)
+
+Caso tenha três consumidores no memso grupo para processar três partições, cada consumidor irá processar uma partição:
+
+![tres_consumidores](https://github.com/zup-academy/nosso-cartao-documentacao/blob/master/images/kafka-007.png)
+
+E se tivermos quatro consumidores no mesmo grupo para processar três partições, um consumidor ficará sem atividade, ou seja, ocioso:
+
+![quatro_consumidores](https://github.com/zup-academy/nosso-cartao-documentacao/blob/master/images/kafka-008.png)
 
 
 ## Cluster
@@ -84,7 +112,8 @@ Uma das principais características do Kafka é a escalabilidade e resiliência 
  
 Abaixo as fontes dos dados deste documento e documentações com mais detalhes e exemplos:
  
- - [https://kafka.apache.org/intro](https://kafka.apache.org/intro);
- - [https://kafka.apache.org/documentation/#design_pull](https://kafka.apache.org/documentation/#design_pull);
- - [https://medium.com/@gabrielqueiroz/o-que-%C3%A9-esse-tal-de-apache-kafka-a8f447cac028](https://medium.com/@gabrielqueiroz/o-que-%C3%A9-esse-tal-de-apache-kafka-a8f447cac028);
- - [https://medium.com/@gabrielqueiroz/o-que-%C3%A9-esse-tal-de-apache-kafka-a8f447cac028](https://medium.com/@gabrielqueiroz/o-que-%C3%A9-esse-tal-de-apache-kafka-a8f447cac028)
+- [https://kafka.apache.org/intro](https://kafka.apache.org/intro);
+- [https://kafka.apache.org/documentation/#design_pull](https://kafka.apache.org/documentation/#design_pull);
+- [https://medium.com/@gabrielqueiroz/o-que-%C3%A9-esse-tal-de-apache-kafka-a8f447cac028](https://medium.com/@gabrielqueiroz/o-que-%C3%A9-esse-tal-de-apache-kafka-a8f447cac028);
+- [https://github.com/zup-academy/nosso-cartao-documentacao/blob/master/informacao_procedural/kafka.md](https://github.com/zup-academy/nosso-cartao-documentacao/blob/master/informacao_procedural/kafka.md)
+ 
