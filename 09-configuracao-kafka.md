@@ -58,10 +58,10 @@ No exemplo abaixo a chave é formato String, a mensagem no formato JSON.
 
 ```properties
 # Formato da chave (String) enviada
-spring.kafka.producer.key-serializer: org.apache.kafka.common.serialization.StringSerializer
+spring.kafka.producer.key-serializer=org.apache.kafka.common.serialization.StringSerializer
 
 # Formato da mensagem \ evento (JSON) enviada(o)
-spring.kafka.producer.value-serializer: org.springframework.kafka.support.serializer.JsonSerializer
+spring.kafka.producer.value-serializer=org.springframework.kafka.support.serializer.JsonSerializer
 ```
 
 
