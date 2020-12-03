@@ -61,7 +61,7 @@ services:
       KAFKA_AUTO_CREATE_TOPICS_ENABLE: "true"
 ```
 
-Neste arquivo temos a criação do container do zookeeper, um serviço centralizado para manter informações de configurações e nomenclaturas entre serviços distribuídos que o Kafka utiliza para sincronizar as configurações entre diferentes clusters e o kafka, configurado para expor na porta 9092, utilizando o zookeeper instanciado no mesmo docker-compose.
+Neste arquivo temos a criação do container do zookeeper, um serviço centralizado para manter informações de configurações e nomenclaturas entre serviços distribuídos que o Kafka utiliza para sincronizar as configurações entre diferentes clusters, e o kafka, configurado para expor na porta 9092, utilizando o zookeeper instanciado no mesmo docker-compose.
 
 Para subir os containers, no terminal, dentro do diretório em que o arquivo está salvo:
 
@@ -144,7 +144,7 @@ docker-compose exec kafka  \
 E então vai permitir que você escreva as mensagem no terminal, cada quebra de linha é uma mensagem nova e para sair utilize `ctrl+c`.
 
 
-## Consumindo mensagem
+### Consumindo mensagem
 
 Para consumir as 100 mensagens produzidas:
 
