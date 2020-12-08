@@ -27,7 +27,7 @@ Se o comando rodar com sucesso está com o docker-compose corretamente instalado
 
 
 De forma resumida, o docker permite que rodemos as aplicações em containers, assim não precisamos instalar a aplicação na nossa máquina; 
-já o docker-compose permite agrupar um conjunto de containers e fazendo com que eles "rodem" juntos, criando todas abstrações necessárias como redes, volumes e centralizando em um único manifesto.
+já o docker-compose permite agrupar um conjunto de containers e fazer com que eles rodem juntos, criando todas abstrações necessárias como redes, volumes e centralizando em um único manifesto.
 
 
 ## Arquivo docker-compose
@@ -61,7 +61,7 @@ services:
       KAFKA_AUTO_CREATE_TOPICS_ENABLE: "true"
 ```
 
-Neste arquivo temos a criação do container do zookeeper, um serviço centralizado para manter informações de configurações e nomenclaturas entre serviços distribuídos que o Kafka utiliza para sincronizar as configurações entre diferentes clusters, e o kafka, configurado para expor na porta 9092, utilizando o zookeeper instanciado no mesmo docker-compose.
+Neste arquivo temos a criação do container do Zookeeper, um serviço centralizado para manter informações de configurações e nomenclaturas entre serviços distribuídos que o Kafka utiliza para sincronizar as configurações entre diferentes clusters, e o Kafka, configurado para expor na porta 9092, utilizando o Zookeeper instanciado no mesmo docker-compose.
 
 Para subir os containers, no terminal, dentro do diretório em que o arquivo está salvo:
 
@@ -141,7 +141,7 @@ docker-compose exec kafka  \
 # Caso de erro de permissão, utilize o sudo
 ```
 
-E então vai permitir que você escreva as mensagem no terminal, cada quebra de linha é uma mensagem nova e para sair utilize `ctrl+c`.
+E então vai permitir que você escreva as mensagens no terminal, cada quebra de linha é uma mensagem nova e para sair utilize `ctrl+c`.
 
 
 ### Consumindo mensagem
