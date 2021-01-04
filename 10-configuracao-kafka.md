@@ -26,11 +26,13 @@ No arquivo `pom.xml` adicionar a dependência:
 
 As propriedades são adicionadas no arquivo `application.properties`.
 
-Abaixo a propriedade que define o endereço do Kafka. Este exemplo usa a variável de ambiente KAFKA_HOST e valor *default* considera o Kafka rodando no *localhost* porta 9092:
+Abaixo as propriedades que definem o endereço do Kafka e tópico. Este exemplo usa a variável de ambiente KAFKA_HOST e o valor *default* considera o Kafka rodando no *localhost* porta 9092:
 
 ```properties
 # Endereço do Kafka
 spring.kafka.bootstrap-servers=${KAFKA_HOST:localhost:9092}
+#Topico do kafka
+spring.kafka.topic.transactions=meu-topico
 ```
 
 Para o consumidor, configuramos o formato de serialização da chave e da mensagem/evento, o identificador do grupo e a configuração do modelo de coleta.
@@ -51,8 +53,7 @@ spring.kafka.consumer.group-id=${KAFKA_CONSUMER_GROUP_ID:minha-aplicacao}
 spring.kafka.consumer.auto-offset-reset=${KAFKA_AUTO-OFFSET-RESET:latest}
 ```
 
-
-Para o consumidor, configuramos também o formato de serialização da chave e da mensagem/evento.
+Para o produtor, configuramos também o formato de serialização da chave e da mensagem/evento.
 
 No exemplo abaixo a chave é formato String, a mensagem no formato JSON.
 
