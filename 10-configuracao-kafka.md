@@ -161,7 +161,7 @@ public class ConsumidorDeTransacao {
 }
 ```
 
-O consumidor é implementado como @KafkaListener, neste caso definindo apenas o tópico que ficará escutando, que é notificado sempre que um novo registro é incluído no tópico.
+O consumidor é implementado como `@KafkaListener`, neste caso definindo apenas o tópico que ficará escutando, que é notificado sempre que um novo registro é incluído no tópico.
 
 ## Quer saber mais?
 
