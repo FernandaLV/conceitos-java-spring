@@ -22,4 +22,4 @@ Esta anotação é utilizada após **@Id** (mostra que o atributo é um identifi
 Abaixo as fontes dos dados deste documento e documentações com mais detalhes e exemplos:
 
 - [https://www.devmedia.com.br/jpa-como-usar-a-anotacao-generatedvalue/38592](https://www.devmedia.com.br/jpa-como-usar-a-anotacao-generatedvalue/38592);
-- [https://docs.oracle.com/javaee/6/api/javax/persistence/Enumerated.html](https://docs.oracle.com/javaee/6/api/javax/persistence/Enumerated.html)
+- [https://docs.oracle.com/javaee/6/api/javax/persistence/Enumerated.html](https://docs.oracle.com/javaee/6/api/javax/persistence/Enumerated.html).
