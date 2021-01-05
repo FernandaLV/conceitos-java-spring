@@ -127,8 +127,8 @@ Abaixo as fontes dos dados deste documento e documentações com mais detalhes e
 - [https://kafka.apache.org/intro](https://kafka.apache.org/intro);
 - [https://kafka.apache.org/documentation/#design_pull](https://kafka.apache.org/documentation/#design_pull);
 - [https://medium.com/@gabrielqueiroz/o-que-%C3%A9-esse-tal-de-apache-kafka-a8f447cac028](https://medium.com/@gabrielqueiroz/o-que-%C3%A9-esse-tal-de-apache-kafka-a8f447cac028);
-- [https://github.com/zup-academy/nosso-cartao-documentacao/blob/master/informacao_procedural/kafka.md](https://github.com/zup-academy/nosso-cartao-documentacao/blob/master/informacao_procedural/kafka.md)
-- [https://github.com/zup-academy/nosso-cartao-documentacao/blob/master/informacao_suporte/kafka-partition.md](https://github.com/zup-academy/nosso-cartao-documentacao/blob/master/informacao_suporte/kafka-partition.md)
-- [https://github.com/zup-academy/nosso-cartao-documentacao/blob/master/informacao_suporte/kafka-producer.md](https://github.com/zup-academy/nosso-cartao-documentacao/blob/master/informacao_suporte/kafka-producer.md)
-- [https://github.com/zup-academy/nosso-cartao-documentacao/blob/master/informacao_suporte/kafka-consumer.md](https://github.com/zup-academy/nosso-cartao-documentacao/blob/master/informacao_suporte/kafka-consumer.md)
+- [https://github.com/zup-academy/nosso-cartao-documentacao/blob/master/informacao_procedural/kafka.md](https://github.com/zup-academy/nosso-cartao-documentacao/blob/master/informacao_procedural/kafka.md);
+- [https://github.com/zup-academy/nosso-cartao-documentacao/blob/master/informacao_suporte/kafka-partition.md](https://github.com/zup-academy/nosso-cartao-documentacao/blob/master/informacao_suporte/kafka-partition.md);
+- [https://github.com/zup-academy/nosso-cartao-documentacao/blob/master/informacao_suporte/kafka-producer.md](https://github.com/zup-academy/nosso-cartao-documentacao/blob/master/informacao_suporte/kafka-producer.md);
+- [https://github.com/zup-academy/nosso-cartao-documentacao/blob/master/informacao_suporte/kafka-consumer.md](https://github.com/zup-academy/nosso-cartao-documentacao/blob/master/informacao_suporte/kafka-consumer.md).
  
