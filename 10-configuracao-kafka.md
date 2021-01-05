@@ -172,4 +172,4 @@ Abaixo as fontes dos dados deste documento e documentações com mais detalhes e
 - [https://github.com/zup-academy/nosso-cartao-documentacao/blob/master/informacao_suporte/kafka-configuration.md](https://github.com/zup-academy/nosso-cartao-documentacao/blob/master/informacao_suporte/kafka-configuration.md);
 - [https://howtodoinjava.com/kafka/spring-boot-jsonserializer-example/](https://howtodoinjava.com/kafka/spring-boot-jsonserializer-example/);
 - [https://www.baeldung.com/spring-kafka](https://www.baeldung.com/spring-kafka);
-- [https://www.baeldung.com/spring-scheduled-tasks](https://www.baeldung.com/spring-scheduled-tasks)
+- [https://www.baeldung.com/spring-scheduled-tasks](https://www.baeldung.com/spring-scheduled-tasks).
