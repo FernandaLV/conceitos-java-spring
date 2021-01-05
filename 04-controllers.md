@@ -71,9 +71,9 @@ Abaixo as fontes dos dados deste documento e documentações com mais detalhes e
 
 - [https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/web/bind/annotation/RestController.html](https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/web/bind/annotation/RestController.html);
 - [https://www.baeldung.com/spring-controller-vs-restcontroller](https://www.baeldung.com/spring-controller-vs-restcontroller);
-- [https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/beans/factory/annotation/Autowired.html](https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/beans/factory/annotation/Autowired.html)
+- [https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/beans/factory/annotation/Autowired.html](https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/beans/factory/annotation/Autowired.html);
 - [https://medium.com/stackavenue/how-to-use-initbinder-in-spring-mvc-ecb974a6884](https://medium.com/stackavenue/how-to-use-initbinder-in-spring-mvc-ecb974a6884);
 - [https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/web/bind/WebDataBinder.html](https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/web/bind/WebDataBinder.html);
 - [https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/validation/Validator.html](https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/validation/Validator.html);
 - [https://www.baeldung.com/exception-handling-for-rest-with-spring](https://www.baeldung.com/exception-handling-for-rest-with-spring);
-- [https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/web/bind/annotation/ControllerAdvice.html](https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/web/bind/annotation/ControllerAdvice.html);.
+- [https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/web/bind/annotation/ControllerAdvice.html](https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/web/bind/annotation/ControllerAdvice.html).
