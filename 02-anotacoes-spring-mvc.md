@@ -43,4 +43,4 @@ Abaixo as fontes dos dados deste documento e documentações com mais detalhes e
 
 - [https://www.baeldung.com/spring-boot-annotations](https://www.baeldung.com/spring-boot-annotations);
 - [https://javarevisited.blogspot.com/2017/11/difference-between-component-service.html](https://javarevisited.blogspot.com/2017/11/difference-between-component-service.html);
-- [http://zetcode.com/springboot/component/](http://zetcode.com/springboot/component/)
+- [http://zetcode.com/springboot/component/](http://zetcode.com/springboot/component/).
