@@ -169,5 +169,5 @@ Processed a total of 100 messages
 
 Abaixo as fontes dos dados deste documento e documentações com mais detalhes e exemplos:
 
-- [https://github.com/zup-academy/nosso-cartao-documentacao/blob/master/proposta/001.setup_docker_compose.md](https://github.com/zup-academy/nosso-cartao-documentacao/blob/master/proposta/001.setup_docker_compose.md)
-- [https://medium.com/trainingcenter/apache-kafka-codifica%C3%A7%C3%A3o-na-pratica-9c6a4142a08f](https://medium.com/trainingcenter/apache-kafka-codifica%C3%A7%C3%A3o-na-pratica-9c6a4142a08f)
+- [https://github.com/zup-academy/nosso-cartao-documentacao/blob/master/proposta/001.setup_docker_compose.md](https://github.com/zup-academy/nosso-cartao-documentacao/blob/master/proposta/001.setup_docker_compose.md);
+- [https://medium.com/trainingcenter/apache-kafka-codifica%C3%A7%C3%A3o-na-pratica-9c6a4142a08f](https://medium.com/trainingcenter/apache-kafka-codifica%C3%A7%C3%A3o-na-pratica-9c6a4142a08f).
