@@ -72,7 +72,7 @@ spring.kafka.producer.value-serializer=org.springframework.kafka.support.seriali
 
 ## Exemplo de código
 
-*O código completo, com opção de configuração através de classe de configuração invés de arquivo de propriedades esta [neste repositório](https://github.com/FernandaLVItau/estudo-kafka)*
+*O código completo, com opção de configuração através de classe de configuração invés de arquivo de propriedades esta [neste repositório](https://github.com/FernandaLV/estudo-kafka)*
 
 Considere a seguinte entidade de evento de transação:
 
